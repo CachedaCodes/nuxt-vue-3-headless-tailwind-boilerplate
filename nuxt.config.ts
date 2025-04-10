@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     localLayerAliases: true,
   },
 
-  target: 'static',
   runtimeConfig: {
     firebaseApiKey: '',
     firebaseAuthDomain: '',
@@ -88,4 +87,6 @@ export default defineNuxtConfig({
       },
     ],
   },
+
+  compatibilityDate: '2025-04-10',
 });
