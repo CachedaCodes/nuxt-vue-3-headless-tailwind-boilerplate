@@ -1,4 +1,7 @@
 {
     "extends": ["config:base"],
-    "dryRun": false
+    "onboarding": false,
+    "automerge": false,
+    "automergeType": "pr",
+    "updateNotScheduled": false
   }
