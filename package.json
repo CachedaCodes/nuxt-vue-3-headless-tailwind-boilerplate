@@ -37,7 +37,7 @@
     "@vueuse/nuxt": "^10.2.1",
     "firebase-admin": "^13.2.0",
     "nuxt-headlessui": "^1.1.4",
-    "nuxt-icon": "^0.4.2",
+    "nuxt-icon": "^0.6.0",
     "pinia": "^2.1.4",
     "sass": "^1.63.4",
     "stringify": "^2.2.0",
