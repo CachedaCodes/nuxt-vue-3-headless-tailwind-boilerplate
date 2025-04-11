@@ -50,7 +50,7 @@
     "@nuxtjs/i18n": "^9.0.0",
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^10.0.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier": "^5.0.0",
     "nuxt": "^3.6.5",
     "prettier": "^2.8.8",
     "typescript": "^5.1.3",
