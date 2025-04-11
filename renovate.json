@@ -4,5 +4,14 @@
   "automerge": false,
   "automergeType": "pr",
   "updateNotScheduled": false,
-  "schedule": ["on the second sunday of the month"]
+  "schedule": ["0 0 8-14 * 0"],
+  "major": {
+    "stabilityDays": 7
+  },
+  "minor": {
+    "stabilityDays": 3
+  },
+  "patch": {
+    "automerge": true
+  }
 }
