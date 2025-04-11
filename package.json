@@ -1,9 +1,9 @@
 {
-  "name": "nuxt-vue-3-headless-tailwind-boilerplate ",
+  "name": "nuxt-vue-3-headless-tailwind-boilerplate",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/viandwi24/nuxt3-awesome-starter"
+    "url": "git://github.com/CachedaCodes/nuxt-vue-3-headless-tailwind-boilerplate"
   },
   "files": [
     "assets",
