@@ -2,7 +2,7 @@
   "singleQuote": true,
   "overrides": [
     {
-      "files": "*.{js,vue}",
+      "files": "*.{js,ts,vue,json,scss,css,md}",
       "options": {
         "singleQuote": true
       }

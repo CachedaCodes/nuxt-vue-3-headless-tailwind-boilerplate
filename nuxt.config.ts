@@ -35,9 +35,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
   ],
 
-  css: [
-    resolve('./assets/styles.scss'),
-  ],
+  css: [resolve('./assets/styles.scss')],
 
   components: [
     {

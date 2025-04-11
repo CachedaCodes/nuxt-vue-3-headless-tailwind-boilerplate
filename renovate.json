@@ -1,8 +1,8 @@
 {
-    "extends": ["config:base"],
-    "onboarding": false,
-    "automerge": false,
-    "automergeType": "pr",
-    "updateNotScheduled": false,
-    "schedule": ["on the second sunday of the month"]
+  "extends": ["config:base"],
+  "onboarding": false,
+  "automerge": false,
+  "automergeType": "pr",
+  "updateNotScheduled": false,
+  "schedule": ["on the second sunday of the month"]
 }
