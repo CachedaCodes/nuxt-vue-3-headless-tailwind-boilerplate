@@ -3,5 +3,6 @@
     "onboarding": false,
     "automerge": false,
     "automergeType": "pr",
-    "updateNotScheduled": false
-  }
+    "updateNotScheduled": false,
+    "schedule": ["on the second sunday of the month"]
+}
