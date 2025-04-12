@@ -1,5 +1,6 @@
 import { createResolver } from '@nuxt/kit';
 const { resolve } = createResolver(import.meta.url);
+import tailwindcss from '@tailwindcss/vite';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -26,16 +27,19 @@ export default defineNuxtConfig({
 
   // modules
   modules: [
-    '@nuxtjs/tailwindcss',
-    'nuxt-headlessui',
     'nuxt-icon',
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@nuxt/content',
     '@nuxtjs/i18n',
+    'shadcn-nuxt',
   ],
 
-  css: [resolve('./assets/styles.scss')],
+  css: [resolve('./assets/css/tailwind.css')],
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 
   components: [
     {
@@ -54,11 +58,6 @@ export default defineNuxtConfig({
     autoImports: [['defineStore', 'definePiniaStore']],
   },
 
-  // module::headlessui
-  headlessui: {
-    prefix: 'Headless',
-  },
-
   // module::content
   content: {
     documentDriven: true,
@@ -68,6 +67,11 @@ export default defineNuxtConfig({
     highlight: {
       theme: 'github-dark',
     },
+  },
+
+  shadcn: {
+    prefix: 'shadcn',
+    componentDir: './components/ui',
   },
 
   // module::i18n

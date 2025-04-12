@@ -1,4 +1,8 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const log = () => {
+  alert('Hello');
+};
+</script>
 
 <template>
   <div
@@ -6,5 +10,6 @@
   >
     <h1 class="text-5xl">{{ $t('boilerplate.title') }}</h1>
     <p>{{ $t('boilerplate.description') }}</p>
+    <ShadcnButton @click="log">Click me</ShadcnButton>
   </div>
 </template>
