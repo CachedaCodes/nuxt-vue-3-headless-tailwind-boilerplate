@@ -18,5 +18,12 @@ export default <Partial<Config>>{
     fontFamily: {
       sans: ['Nunito', ...defaultTheme.fontFamily.sans],
     },
+    extend: {
+      colors: {
+        patata: {
+          50: '#fabada',
+        },
+      },
+    },
   },
 };
