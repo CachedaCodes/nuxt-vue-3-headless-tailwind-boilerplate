@@ -1,6 +1,6 @@
 {
   "boilerplate": {
     "title": "This is a NUXT 3 boilerplate",
-    "description": "This boilerplate uses Nuxt 3 + Vue 3 + TS + TailwindCSS. It also has pre-built solutions for using Pinia, Firebase & HeadlessUI"
+    "description": "This boilerplate uses Nuxt 3 + Vue 3 + TS + TailwindCSS. It also has pre-built solutions for using Pinia, Firebase & Shadcn"
   }
 }

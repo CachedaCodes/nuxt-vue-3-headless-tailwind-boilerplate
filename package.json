@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-vue-3-headless-tailwind-boilerplate",
+  "name": "nuxt-vue-3-shadcn-tailwind-boilerplate",
   "private": true,
   "repository": {
     "type": "git",
@@ -41,7 +41,6 @@
     "clsx": "^2.1.1",
     "firebase-admin": "^13.2.0",
     "lucide-vue-next": "^0.487.0",
-    "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.6.0",
     "pinia": "^3.0.0",
     "reka-ui": "^2.2.0",

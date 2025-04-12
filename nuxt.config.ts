@@ -58,11 +58,6 @@ export default defineNuxtConfig({
     autoImports: [['defineStore', 'definePiniaStore']],
   },
 
-  // module::headlessui
-  headlessui: {
-    prefix: 'Headless',
-  },
-
   // module::content
   content: {
     documentDriven: true,
