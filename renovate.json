@@ -4,7 +4,7 @@
   "automerge": false,
   "automergeType": "pr",
   "updateNotScheduled": false,
-  "schedule": ["0 0 8-14 * 0"],
+  "schedule": ["* 0 8-14 * 0"],
   "major": {
     "stabilityDays": 7
   },
